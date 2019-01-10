@@ -1,0 +1,21 @@
+---------------------------------------------------------------------
+#文件上传
+/d/Windcloud/WindPower/Development/D-OP2019005
+## 需要进入修改文件的文件夹目录下
+
+git clone git@61.129.251.28:znzx/project/D-OP2019005.git   先克隆下来 首次链接
+
+git pull #先将远程仓库内容拉下来
+
+git add --a
+
+git commit -m “” 添加修改说明
+
+git push
+
+
+
+-----------------------------------------------------
+ssh-keygen.exe  #生成ssh 密钥
+
+cat ~/.ssh/id_rsa.pub   # 查看密码内容 ，复制粘贴到git 中去
